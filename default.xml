@@ -33,6 +33,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" />
   <project path="kernel/configs" name="LineageOS/android_kernel_configs" groups="vts,pdk" />
   <project path="kernel/prebuilts/6.1/arm64" name="kernel/prebuilts/6.1/arm64" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="kernel/prebuilts/6.1/x86_64" name="kernel/prebuilts/6.1/x86-64" groups="pdk" clone-depth="1" remote="aosp" />
